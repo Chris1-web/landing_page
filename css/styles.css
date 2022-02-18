@@ -8,11 +8,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* .hero-page {
-  display: flex;
-  flex-direction: column;
-} */
-
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -23,7 +18,7 @@ body {
 
 /* special css */
 .container {
-  max-width: 1150px;
+  max-width: 1125px;
   margin: 0 auto;
 }
 
@@ -50,6 +45,7 @@ ul {
   color: white;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .fa-tint {
@@ -68,7 +64,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 100px;
-  padding: 90px 20px;
+  padding: 80px 20px;
 }
 
 .hero-text h1 {
@@ -97,18 +93,101 @@ ul {
 }
 
 .hero-page {
-  background-color: #ebffff;
+  background-color: #e9fcfc;
+  margin-bottom: 20px;
 }
 
 .centered-hero-text {
   text-align: center;
-  padding: 10px 0 40px 0;
+  padding: 0 0 50px 0;
   font-size: 20px;
   font-weight: bold;
   color: #333;
 }
 
-.info-section {
+.infos {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  line-height: 20px;
+  padding: 20px;
+  height: 150px;
+  gap: 20px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info-section h2 {
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: #00000080;
+}
+
+.cta-3 button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #1fdde0;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  margin-bottom: 40px;
+}
+
+.testimonials h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #19b1b3;
+}
+
+.testimonial-boxes {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial-boxes img {
+  width: 90px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  /* height: 400px; */
+  padding: 30px;
+  font-size: 20px;
+  gap: 30px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.personal-info h5 {
+  color: #1cc7ca;
 }
