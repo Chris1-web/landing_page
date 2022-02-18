@@ -4,9 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Landing Page</title>
   </head>
   <body>
-    <h1>This is a landing page</h1>
+    <div class="hero-page">
+      <div class="navigation container">
+        <div class="header-img">
+          <i class="fa fa-tint"></i>
+          <i class="fa fa-tint"></i>
+          <i class="fa fa-tint"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+        <button class="cta">
+          <i class="fa fa-phone"></i>
+          <span> (704) 555-1234</span>
+        </button>
+      </div>
+      <div class="content container">
+        <div class="hero-text">
+          <h1>Let's air your dirty laundry at your choosing</h1>
+          <p>
+            The Student laundry subscription that will keep your clothes cleaned
+            and ironed all day, every day. To give you more free time at a low
+            cost
+          </p>
+          <button>START NOW</button>
+        </div>
+        <div class="hero-img">
+          <img src="./images/unfolded-clothes.png" alt="unfolded clothes" />
+        </div>
+      </div>
+      <div class="centered-hero-text">
+        <p>Over 300+ statisfied customers</p>
+      </div>
+    </div>
+    <div class="info-section container">
+      <div class="info">
+        <ion-icon name="calendar"></ion-icon>
+        <p>Select the date and time for professionals to show up</p>
+      </div>
+      <div class="info">
+        <ion-icon name="shirt"></ion-icon>
+        <p>Your cloth is cleaned and ironed</p>
+      </div>
+      <div class="info">
+        <ion-icon name="bicycle"></ion-icon>
+        <p>Select the date and time for professionals to show up</p>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>

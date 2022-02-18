@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* .hero-page {
+  display: flex;
+  flex-direction: column;
+} */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-top: 30px;
+}
+
+/* special css */
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #535353;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cta {
+  padding: 10px 15px;
+  background-color: #1fdde0;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.fa-tint {
+  font-size: 800px;
+}
+
+.hero-img img {
+  width: 500px;
+}
+
+.header-img {
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 90px 20px;
+}
+
+.hero-text h1 {
+  font-weight: 900;
+  font-size: 50px;
+  color: #535353;
+  letter-spacing: -0.5px;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.hero-text button {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #1fdde0;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero-page {
+  background-color: #ebffff;
+}
+
+.centered-hero-text {
+  text-align: center;
+  padding: 10px 0 40px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
