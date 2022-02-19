@@ -38,7 +38,8 @@ ul {
   list-style-type: none;
 }
 
-.cta {
+.cta,
+.last-section button {
   padding: 10px 15px;
   background-color: #1fdde0;
   font-weight: 700;
@@ -159,7 +160,7 @@ ion-icon {
 
 .testimonials h4 {
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #19b1b3;
 }
 
@@ -190,4 +191,28 @@ ion-icon {
 
 .personal-info h5 {
   color: #1cc7ca;
+}
+
+.last-section {
+  background-color: #e9fcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  gap: 25px;
+}
+
+.last-section h4 {
+  font-size: 30px;
+  color: #535353;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  background-color: #1cc7ca;
+  padding: 20px;
+  color: white;
 }
