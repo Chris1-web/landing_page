@@ -89,3 +89,9 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 971px) {
+  .hero-img {
+    width: 100rem;
+  }
+}
