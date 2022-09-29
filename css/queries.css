@@ -1,0 +1,91 @@
+@media (max-width: 970px) {
+  .content {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .content h1 {
+    font-size: 4rem;
+  }
+  .content .hero-text {
+    text-align: center;
+    padding: 0 4rem;
+  }
+  .nav-links {
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    z-index: 2;
+
+    /* Hide navigation */
+    /* 1) Hide it visually */
+    opacity: 0;
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .cta {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    z-index: 2;
+    background-color: white;
+    color: #1fdde0;
+
+    /* Hide cta button */
+    /* 1) Hide it visually */
+    opacity: 0;
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-links a {
+    font-size: 5rem;
+    color: white;
+  }
+
+  .nav-links.open-nav,
+  .cta.open-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  button.mobile-menu {
+    display: flex !important;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+
+  button.mobile-menu div.move {
+    background-color: white;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1fdde0;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 770px) {
+  .infos {
+    flex-direction: column;
+  }
+}

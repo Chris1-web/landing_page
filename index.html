@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +19,7 @@
     <title>Landing Page</title>
   </head>
   <body>
+    <div class="overlay hide"></div>
     <div class="hero-page">
       <div class="navigation container">
         <div class="header-img">
@@ -35,10 +37,15 @@
           <i class="fa fa-phone"></i>
           <span> (704) 555-1234</span>
         </button>
+        <button class="mobile-menu">
+          <div class="top"></div>
+          <div class="middle"></div>
+          <div class="bottom"></div>
+        </button>
       </div>
       <div class="content container">
         <div class="hero-text">
-          <h1>Let's air your dirty laundry at your choosing</h1>
+          <h1>Let's air your dirty laundry</h1>
           <p>
             The Student laundry subscription that will keep your clothes cleaned
             and ironed all day, every day. To give you more free time at a low
@@ -55,11 +62,11 @@
       </div>
     </div>
     <div class="info-section container">
-      <h2>How we work</h2>
+      <h2>HOW WE WORK</h2>
       <div class="infos">
         <div class="info">
           <ion-icon name="calendar"></ion-icon>
-          <p>Select the date and time for professionals to show up</p>
+          <p>Select the date and time for delivery</p>
         </div>
         <div class="info">
           <ion-icon name="shirt"></ion-icon>
@@ -67,7 +74,7 @@
         </div>
         <div class="info">
           <ion-icon name="bicycle"></ion-icon>
-          <p>Select the date and time to deliver your clothes</p>
+          <p>Get clothes delivered at your door</p>
         </div>
       </div>
       <div class="cta-3">
@@ -75,15 +82,6 @@
       </div>
     </div>
     <div class="testimonials container">
-      <!-- <div class="texts">
-        <h3>TESTIMONIALS</h3>
-        <h2 class="big-text">What Clients Say</h2>
-        <p class="small-text">
-          We place strong emphasis on satifying our clients and have seen the
-          strong benefit they bring to our business.Customer feedback is vital
-          in helping usto get it right.
-        </p>
-      </div> -->
       <h4>What our clients say</h4>
       <div class="testimonial-boxes">
         <div class="box box-1">
@@ -129,11 +127,18 @@
       <p>Regain control of your time, while we do your laundry.</p>
       <button>GET AN ESTIMATE</button>
     </div>
-
-    <div class="footer">copyright &copy; The Odin Project 2022</div>
+    <div class="footer">
+      <span>copyright &copy; </span>
+      <a
+        href="https://github.com/Chris1-web/landing_page/tree/landing_page_responsive"
+        target="_blank"
+        ><img src="./images/github.png"
+      /></a>
+    </div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
